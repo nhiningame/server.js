@@ -5,7 +5,7 @@ const fetch = require('node-fetch');
 const app = express();
 const port = process.env.PORT || 3000;
 
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || 'YOUR_API_KEY_HERE';
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY || 'AIzaSyBbC7Y22B7F5bgOTeDHI3iytCTrzIZFH40';
 
 const corsOptions = {
   origin: [
